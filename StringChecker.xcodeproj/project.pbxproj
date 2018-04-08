@@ -15,6 +15,7 @@
 		DA73705F206E05FF00D61A2C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DA73705E206E05FF00D61A2C /* main.m */; };
 		DA737069206E05FF00D61A2C /* StringCheckerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DA737068206E05FF00D61A2C /* StringCheckerTests.m */; };
 		DA737074206E05FF00D61A2C /* StringCheckerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DA737073206E05FF00D61A2C /* StringCheckerUITests.m */; };
+		DA737083206E064C00D61A2C /* StringChecker.m in Sources */ = {isa = PBXBuildFile; fileRef = DA737082206E064C00D61A2C /* StringChecker.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		DA73706F206E05FF00D61A2C /* StringCheckerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StringCheckerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA737073206E05FF00D61A2C /* StringCheckerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StringCheckerUITests.m; sourceTree = "<group>"; };
 		DA737075206E05FF00D61A2C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DA737081206E064C00D61A2C /* StringChecker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StringChecker.h; sourceTree = "<group>"; };
+		DA737082206E064C00D61A2C /* StringChecker.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StringChecker.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				DA737050206E05FF00D61A2C /* AppDelegate.m */,
 				DA737052206E05FF00D61A2C /* ViewController.h */,
 				DA737053206E05FF00D61A2C /* ViewController.m */,
+				DA737081206E064C00D61A2C /* StringChecker.h */,
+				DA737082206E064C00D61A2C /* StringChecker.m */,
 				DA737055206E05FF00D61A2C /* Main.storyboard */,
 				DA737058206E05FF00D61A2C /* Assets.xcassets */,
 				DA73705A206E05FF00D61A2C /* LaunchScreen.storyboard */,
@@ -267,6 +272,7 @@
 			files = (
 				DA737054206E05FF00D61A2C /* ViewController.m in Sources */,
 				DA73705F206E05FF00D61A2C /* main.m in Sources */,
+				DA737083206E064C00D61A2C /* StringChecker.m in Sources */,
 				DA737051206E05FF00D61A2C /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -433,6 +439,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4D7P2JD7J5;
 				INFOPLIST_FILE = StringChecker/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = xieyongxu.StringChecker;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -447,6 +454,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4D7P2JD7J5;
 				INFOPLIST_FILE = StringChecker/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = xieyongxu.StringChecker;
 				PRODUCT_NAME = "$(TARGET_NAME)";
